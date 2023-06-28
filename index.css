@@ -6,9 +6,8 @@ html, body {margin: 0;}
 h1, h2, h3, h4, h5, h6, figure, p {margin: 0;}
 
 
-h2 {font-size: 28px;
-    font-family: 'Gaegu';
-    color: #7E9CDC;}
+h2 {font-size: 25px;
+    font-family: 'Gaegu';}
 h3 {font-size: 17px;}
 p {
     font-size: 13px;
@@ -75,27 +74,33 @@ main {
 }
 .linktree > ul > li > a > img {
     position: absolute;
-    width: 60%;
-    filter: drop-shadow(7px 7px 7px rgba(0,0,0,0.5));
+    width: 50%;
+    filter: drop-shadow(5px 5px 3px rgba(0,0,0,0.5));
 }
 
 .link01 {
-    right: 30%; top: 20%;
+    right: 50%; top: 16%;
     transform: rotate(6deg);
 }
 
 .link02 {
-    left: -5%; top: 42%;
+    left: 23%; top: 30%;
     transform: rotate(-25deg);
 }
 .link03 {
-    right: 18%; top: 47%;
-    transform: rotate(23deg);
+    right: 41%; top: 39%;
+    transform: rotate(25deg);
 }
 .link04 {
-    left: 0%; top: 66%;
-    transform: rotate(-10deg);
+    left: 25%; top: 59%;
+    transform: rotate(-13deg);
 }
+
+.link05 {
+    left: 0%; top: 66%;
+    transform: rotate(5deg);
+}
+
 
 /* ---------------------------------------------------------------------- */
 
@@ -103,10 +108,11 @@ main {
     text-align: center;
     background-color: #7E9CDC;
     color: #EDEFF2;
-    padding: 20px 0;
+    padding: 16px 0;
     border-radius: 15px;
     display: block;
-    margin: 0% 5% 7% 5%;
+    margin: -1% 7% 7% 7%;
+    letter-spacing : 5px;
 }
 
 /* ---------------------------------------------------------------------- */
@@ -118,5 +124,6 @@ main {
     color: #7E9CDC;
     font-size: 18px;
     font-family: Gaegu;
+    font-weight: 600
 }
 
